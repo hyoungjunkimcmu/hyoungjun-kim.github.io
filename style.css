@@ -1,8 +1,8 @@
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #fafafa;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  background-color: #fdfdfd;
   color: #333;
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 40px 20px;
   line-height: 1.6;
@@ -14,13 +14,13 @@ header {
 }
 
 header h1 {
-  margin-bottom: 5px;
   font-size: 2.5em;
+  margin-bottom: 5px;
 }
 
 header h2 {
-  font-weight: normal;
   color: #666;
+  font-weight: normal;
   font-size: 1.1em;
 }
 
@@ -31,7 +31,7 @@ nav {
 nav a {
   margin: 0 12px;
   text-decoration: none;
-  color: #007acc;
+  color: #B31B1B; /* CMU Red */
   font-weight: bold;
 }
 
@@ -41,11 +41,12 @@ nav a:hover {
 
 .profile-pic {
   display: block;
-  margin: 20px auto;
+  margin: 25px auto;
   width: 180px;
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
+  border: 3px solid #ddd;
 }
 
 h3 {
